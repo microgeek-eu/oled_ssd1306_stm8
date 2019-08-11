@@ -1,19 +1,17 @@
-* -------------------------------------------------------------------
-* OLED SSD1306 library for STM8
-* Zbigniew Gibek <zbeegin@op.pl>
-*
-* ---
-* This code is a port to STM8 of:
-*
-*   OLED SSD1306 library for STM32
-*   https://github.com/lamik/OLED_SSD1306_STM32_HAL
-*   Mateusz Salamon <mateusz@msalamon.pl>
-*   Visit https://www.msalamon.pl/ for more information.
-*
-* ---
-* The code also use STM8 Standard Peripherial Library
-* which is copyrighted by STMicroelectronics.
-* -------------------------------------------------------------------
+
+OLED SSD1306 library for STM8
+Zbigniew Gibek <zbeegin@op.pl>
+
+This code is a port to STM8 of:
+
+  OLED SSD1306 library for STM32
+  https://github.com/lamik/OLED_SSD1306_STM32_HAL
+  Mateusz Salamon <mateusz@msalamon.pl>
+  Visit https://www.msalamon.pl/ for more information.
+
+  The code also use STM8 Standard Peripherial Library
+  which is copyrighted by STMicroelectronics.
+
 
 
 Description:
