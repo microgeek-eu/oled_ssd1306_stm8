@@ -61,7 +61,7 @@ static void SystemClock_Config(void)
 #ifdef DISABLE_OTHER_PERIPHERIAL_CLOCKS
   CLK_PeripheralClockConfig(CLK_PERIPHERAL_ADC   , DISABLE);
   CLK_PeripheralClockConfig(CLK_PERIPHERAL_AWU   , DISABLE);
-  CLK_PeripheralClockConfig(CLK_PERIPHERAL_UART1 , DISABLE);
+  CLK_PeripheralClockConfig(CLK_PERIPHERAL_UART2 , DISABLE);
   CLK_PeripheralClockConfig(CLK_PERIPHERAL_TIMER1, DISABLE);
   CLK_PeripheralClockConfig(CLK_PERIPHERAL_TIMER4, DISABLE);
 #endif
