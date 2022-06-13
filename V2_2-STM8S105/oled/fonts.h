@@ -29,8 +29,8 @@
 /*
  * @brief  Set fonts you want to use
  */
-#define FONT_6x4 1
-#define FONT_7x5 0
+#define FONT_6x4 0
+#define FONT_7x5 1
 #define FONT_7x7 0
 
 

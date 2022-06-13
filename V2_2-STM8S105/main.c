@@ -71,7 +71,7 @@ int main(void)
   /*   SSD1306_Bitmap((uint8_t*)picture);
    *   Delay_ms(5000);
    */
-  GFX_SetFont(font_6x4);
+  GFX_SetFont(font_7x5);
   GFX_SetFontSize(1);
 
   /*  SSD1306_StartScrollLeftUp(0, 7, SCROLL_EVERY_4_FRAMES, 1);
@@ -93,9 +93,9 @@ int main(void)
 
     sprintf(fps_c, "LOOP: %04d", loops_overal);
     SSD1306_Clear(WHITE);
-    GFX_DrawString(0, 0, fps_c, WHITE, BLACK);
+    GFX_DrawString(0, 0, fps_c, BLACK, WHITE);
     sprintf(fps_c, " FPS: %02d", fps);
-    GFX_DrawString(0, 8, fps_c, WHITE, BLACK);
+    GFX_DrawString(0, 8, fps_c, BLACK, WHITE);
     frames++;
 
     GPIO_WriteHigh(TEST_Port, TEST_Pin);

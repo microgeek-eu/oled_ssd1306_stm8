@@ -350,7 +350,7 @@ void SSD1306_Init(void)
 
   /* Set COM Hardware Configuration */
   SSD1306_Command(SSD1306_SETCOMPINS);
-  SSD1306_Command(0x12);
+  SSD1306_Command(0x22);
               /* Alternative COM Pin---See IC Spec page 34       */
               /* (0x02)=> A4=0;Sequential COM pin configuration; */
               /*          A5=0;Disable COM Left/Right remap      */

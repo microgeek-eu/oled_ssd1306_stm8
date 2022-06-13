@@ -98,7 +98,7 @@
   *        need to control RES pin too.
   *        If you add hardware reset circuit you can remark this line.
   */
-#define SSD1306_RESET_USE
+/* #define SSD1306_RESET_USE */
 
 /* Exported functions prototypes ---------------------------------------------*/
 void MCU_Config(void);
